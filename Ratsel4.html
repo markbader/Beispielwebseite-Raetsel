@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="funktion4.js"></script>
+		<title>Marks R&auml;tsel</title>
+	</head>
+	
+	<body>
+		<div id="oben">
+		<br />
+		<h1 id="überschrift">Kuchen R&auml;tsel</h1>
+		<br />
+		</div>
+		<div id="menue" >
+			<a href="index.html" id="menue2">Hauptseite</a>
+			<a href="impressum.html" id="menue2">Impressum</a>
+			<a href="haftungsausschluss.html" id="menue2">Haftungsausschluss</a>
+		</div>
+		<div id='inhalt'>
+			<br />
+				<div id="text">
+				<b>Frage:</b><br />
+				<p>Du sollst eine runde Torte mit nur vier geraden Schnitten in m&ouml;glichst viele St&uuml;cke zerschneiden. Die St&uuml;cke m&uuml;ssen nicht gleich gro&szlig; sein. Geschnitten werden darf nur senkrecht (2-Dimensional).<br /><br />
+				In wieviele St&uuml;cke kann man die Torte so maximal zerschneiden? </p><br />
+				<b>Antwort:</b>
+				<form name="losung">
+				<p>Es entstehen maximal <input type="text" name="antwort" size="1" maxlength="8" onchange="prufen();"> St&uuml;ck.				
+				<input type="button" value="Antworten" onclick="prufen();"></p><br />
+				<b>Auswertung:</b><br />
+				<p><textarea type="text" name="auswertung" cols="20" rows="8" disabled="" id="textarea" ></textarea><br /></p>
+				</form>
+				<div id="pfeile">
+				<a href="Ratsel3.html">&#x25C4;</a> <a href="Ratsel5.html">&#x25BA;</a>
+				</div>
+				</div>
+			<div id="unten">&#x00A9; Mark Bader 2013</div>
+		</div>
+	</body>
+</html>

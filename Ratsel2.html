@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="funktion2.js"></script>
+		<title>Marks R&auml;tsel</title>
+	</head>
+	
+	<body>
+		<div id="oben">
+		<br />
+		<h1 id="überschrift">Ritter R&auml;tsel</h1>
+		<br />
+		</div>
+		<div id="menue" >
+			<a href="index.html" id="menue2">Hauptseite</a>
+			<a href="impressum.html" id="menue2">Impressum</a>
+			<a href="haftungsausschluss.html" id="menue2">Haftungsausschluss</a>
+		</div>
+		<div id='inhalt'>
+			<br />
+				<div id="text">
+				<b>Frage:</b><br />
+				<p>Ein Ritter sollte im Auftrag seines K&ouml;nigs in eine fremde Burg eindringen. Dazu musste er aber den Wachen am Burgtor die richtige Parole nennen, die er leider noch nicht wusste.
+				Er legte sich also nahe des Tores versteckt in einem Busch auf die Lauer und wartete.<br />
+				<br />
+				Kurz darauf kommt ein H&auml;ndler auf einem Karren und verlangt Einlass.
+				Der W&auml;chter sagt: 28, was ist deine Antwort? Der H&auml;ndler antwortet mit 14 und wird eingelassen.<br />
+				<br />
+				Dann kommt eine junge Magd und nun sagt der W&auml;chter: 8, was ist deine Antwort? Die Magd antwortet mit 4 und wird eingelassen.<br />
+				<br />
+				Sp&auml;ter steht ein M&ouml;nch vor den Stadttoren und der W&auml;chter sagt: 16, was ist deine Antwort? Der M&ouml;nch antwortet mit 8 und wird eingelassen.<br />
+				<br />
+				Der spionierende Ritter glaubt nun alles zu wissen und stolziert mit einem breiten L&auml;cheln vor das Burgtor. Der W&auml;chter verstellt ihm den Weg und sagt: 24, was ist deine Antwort? <br />
+				Ich sage 12!, antwortet der Ritter und will weiterlaufen, aber bevor er auch nur einen Schritt machen kann, zieht der W&auml;chter sein Schwert und t&ouml;tet ihn. <br />
+				Der Ritter hatte die falsche Zahl genannt!<br />
+				<br />
+				Aber was w&auml;re denn richtig gewesen?</p><br />
+				<b>Antwort:</b>
+				<form name="losung">
+				<p>Er h&auml;tte die Zahl <input type="text" name="antwort" size="1" maxlength="8" onchange="prufen();"> nennen m&uuml;ssen.				
+				<input type="button" value="Antworten" onclick="prufen();"></p><br />
+				<b>Auswertung:</b><br />
+				<p><textarea type="text" name="auswertung" cols="20" rows="6" disabled="" id="textarea" ></textarea><br /></p>
+				</form>
+				<div id="pfeile">
+				<a href="Ratsel1.html">&#x25C4;</a> <a href="Ratsel3.html">&#x25BA;</a>
+				</div>
+				</div>
+			<div id="unten">&#x00A9; Mark Bader 2013</div>
+		</div>
+	</body>
+</html>

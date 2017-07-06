@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="funktion6.js"></script>
+		<title>Marks R&auml;tsel</title>
+	</head>
+	
+	<body>
+		<div id="oben">
+		<br />
+		<h1 id="überschrift">Kuchen R&auml;tsel</h1>
+		<br />
+		</div>
+		<div id="menue" >
+			<a href="index.html" id="menue2">Hauptseite</a>
+			<a href="impressum.html" id="menue2">Impressum</a>
+			<a href="haftungsausschluss.html" id="menue2">Haftungsausschluss</a>
+		</div>
+		<div id='inhalt'>
+			<br />
+				<div id="text">
+				<b>Frage:</b><br />
+				<p>Eine Familie hat viele Kinder. Sieben von ihnen essen gern Wei&szlig;krauteintopf, sechs M&ouml;hren, f&uuml;nf Erbsen. Vier m&ouml;gen besonders Wei&szlig;kraut und M&ouml;hren, drei Wei&szlig;kraut und Erbsen, zwei M&ouml;hren und Erbsen. Einer isst alles gern.<br /><br />Wie viele Kinder hat die Familie?</p><br />
+				<b>Antwort:</b>
+				<form name="losung">
+				<p>Die Familie hat <input type="text" name="antwort" size="1" maxlength="8" onchange="prufen();"> Kinder.				
+				<input type="button" value="Antworten" onclick="prufen();"></p><br />
+				<b>Auswertung:</b><br />
+				<p><textarea type="text" name="auswertung" cols="20" rows="8" disabled="" id="textarea" ></textarea><br /></p>
+				</form>
+				<div id="pfeile">
+				<a href="Ratsel5.html">&#x25C4;</a> <a style="color:grey">&#x25BA;</a>
+				</div>
+				</div>
+			<div id="unten">&#x00A9; Mark Bader 2013</div>
+		</div>
+	</body>
+</html>

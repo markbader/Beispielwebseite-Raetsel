@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<script src="funktion1.js"></script>
+		<title>Marks R&auml;tsel</title>
+	</head>
+	
+	<body>
+		<div id="oben">
+		<br />
+		<h1 id="überschrift">Seerosen R&auml;tsel</h1>
+		<br />
+		</div>
+		<div id="menue" >
+			<a href="index.html" id="menue2">Hauptseite</a>
+			<a href="impressum.html" id="menue2">Impressum</a>
+			<a href="haftungsausschluss.html" id="menue2">Haftungsausschluss</a>
+		</div>
+		<div id='inhalt'>
+			<br />
+				<div id="text">
+				<b>Frage:</b><br />
+				<p>Die Seerosen in einem Teich verdoppeln sich t&auml;glich. Genau am 100. Tag ist der Teich voll.<br /><br />
+				Wann war der Teich halb voll?</p><br />
+				<b>Antwort:</b>
+				<form name="losung">
+				<p>Der Teich war am <input type="text" name="antwort" size="1" maxlength="8" onchange="prufen();"> . Tag kommplett gef&uuml;llt.				
+				<input type="button" value="Antworten" onclick="prufen();"></p><br />
+				<b>Auswertung:</b><br />
+				<p><textarea type="text" name="auswertung" cols="20" rows="10" disabled="" id="textarea" ></textarea><br /></p>
+				</form>
+				<div id="pfeile">
+				<a style="color:grey">&#x25C4;</a> <a href="Ratsel2.html">&#x25BA;</a>
+				</div>
+				</div>
+			<div id="unten">&#x00A9; Mark Bader 2013</div>
+		</div>
+	</body>
+</html>
